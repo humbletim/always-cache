@@ -1,6 +1,6 @@
-name: 'Cache'
-description: 'Cache dependencies and build outputs to improve workflow execution time'
-author: 'GitHub'
+name: 'Always-Cache'
+description: 'Always Cache dependencies and build outputs to improve workflow execution time (fork of actions/cache which always saves cache even if tests fail)'
+author: 'gerbal'
 inputs:
   path:
     description: 'A directory to store and save the cache'
