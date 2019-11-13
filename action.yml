@@ -1,5 +1,5 @@
 name: 'Always-Cache'
-description: 'Always Cache dependencies and build outputs to improve workflow execution time (fork of actions/cache which always saves cache even if tests fail)'
+description: 'Fork of actions/cache which always saves cache'
 author: 'gerbal'
 inputs:
   path:
